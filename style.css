@@ -1,0 +1,56 @@
+/* font for h1 */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+/* font for h1 */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+* {
+    margin: 0;
+}
+
+#divmain {
+    background-color: black; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#divmain>div {
+    width: 220px;
+    height: 300px;
+    margin: 10px;
+    background-color: white; 
+    text-align: center;
+    border-radius: 8px; 
+}
+
+#divmain>div>img {
+    width: 200px;
+    height: 140px;
+    margin: 10px;
+    border-radius: 8px; 
+}
+
+#divmain>div>h1 {
+    font-size: 20px;
+    color: black; 
+    margin-bottom: 8px; 
+    font-family: 'Kanit', sans-serif;
+}
+
+#divmain>div>p {
+    font-size: 18px; 
+    color: black; 
+    margin-bottom: 12px; 
+    font-family: 'Merriweather', serif;
+}
+
+#divmain>div>button {
+    width: 180px; 
+    height: 40px;
+    background-color: coral; 
+    color: white;
+    border: 0;
+}
+
+#divmain>div>button:hover {
+    background-color: black; 
+}
